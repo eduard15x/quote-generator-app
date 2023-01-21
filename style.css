@@ -65,3 +65,12 @@ body {
     color: white;
     font-size: 30px;
 }
+
+.transition {
+    opacity: 0;
+}
+
+.active .transition {
+    transition: opacity 2s ease-out;
+    opacity: 1;
+}
